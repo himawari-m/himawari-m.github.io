@@ -18,7 +18,7 @@ body{
 div{
     text-align: center;
     font-size: 18px;
-    width: 500px;
+    width: 30px;
 //    margin: auto;
     margin-left: 30px;
     padding:6px 6px 6px;
@@ -29,4 +29,59 @@ div{
 </head>
 <body>
 
-<h1>解答</h1>
+<h1>解答・解説[6](1)</h1>
+<br>
+
+\(y=f(x)上の点(t,f(t))における接線の方程式を求める\)　<br>
+<br>\(f(x)=\displaystyle \frac{x-a}{e^x}より、\)<br>
+<br>\(微分をして\)
+<div>
+\begin{eqnarray*}
+f'(x)&=& \frac{1・e^x-(x-a)e^x}{(e^x)^2} \\
+f'(x)&=& \frac{1-(x-a)}{e^x} \\
+
+\end{eqnarray*}
+</div>
+
+<br>
+<br>
+\(接線の式より\)
+
+<div>
+\begin{eqnarray*}
+y&=&f'(t)(x-t)+f(t) \\
+&=& \frac{1-(t-a)}{e^t}(x-t)+ \frac{t-a}{e^t} \\
+(0,0)を通るのでxとyにそれぞれ0を代入していく　\\
+0&=& \frac{1-t-a}{e^t}(-t)+ \frac{t-a}{e^t} \\
+0&=& \frac{-t+t^2+at}{e^t}+ \frac{t-a}{e^t} \\
+0&=& \frac{t^2-ta-a}{e^t} \\
+\end{eqnarray*}
+</div>
+\(e^t>0より　　
+t^2-ta-a=0　…①\)
+
+<br>
+<br>
+<br>
+
+
+<br>\(原点を通る接線がただ1つのとき、①を満たす実数はただ1つの実数解、すなわち重解をもつ \\
+よって①の判別式をDとするとD=0　…②\)
+<div>
+\begin{eqnarray*}
+D &=& a^2-4・1・(-a)\\
+&=& a^2+4a\\
+\end{eqnarray*}
+</div>
+
+
+\(②より\)
+<div>
+\begin{eqnarray*}
+a^2+4a&=&0 \\
+a(a+4)&=&0 \\
+a\ne 0より、a&=&-4
+\end{eqnarray*}
+</div>
+
+
