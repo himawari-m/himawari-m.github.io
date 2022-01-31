@@ -7,6 +7,14 @@
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML">
 </script>
 
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+displayAlign: "left",
+displayIndent: "2em"
+});
+</script>
+
 <style>
  
 body{
@@ -40,7 +48,7 @@ div{
 <br>\(微分をして\)
 <div>
 \begin{eqnarray*}
-f'(x)&=& \frac{1・e^x-(x-a)e^x}{(e^x)^2} \\
+f'(x)&=& \frac{1・e^x-(x-a)e^x}{(e^x)^2}  \\[3mm] 
 f'(x)&=& \frac{1-(x-a)}{e^x} \\
 
 \end{eqnarray*}
@@ -52,11 +60,18 @@ f'(x)&=& \frac{1-(x-a)}{e^x} \\
 
 <div>
 \begin{eqnarray*}
-y&=&f'(t)(x-t)+f(t) \\
+y&=&f'(t)(x-t)+f(t) \\[3mm]
 &=& \frac{1-(t-a)}{e^t}(x-t)+ \frac{t-a}{e^t} \\
-(0,0)を通るのでxとyにそれぞれ0を代入していく　\\
-0&=& \frac{1-t-a}{e^t}(-t)+ \frac{t-a}{e^t} \\
-0&=& \frac{-t+t^2+at}{e^t}+ \frac{t-a}{e^t} \\
+\end{eqnarray*}
+</div>
+<br>
+<br>
+\((0,0)を通るのでxとyにそれぞれ0を代入していく\)
+<br>
+<div>
+\begin{eqnarray*}
+0&=& \frac{1-t-a}{e^t}(-t)+ \frac{t-a}{e^t} \\[3mm]
+0&=& \frac{-t+t^2+at}{e^t}+ \frac{t-a}{e^t} \\[3mm]
 0&=& \frac{t^2-ta-a}{e^t} \\
 \end{eqnarray*}
 </div>
