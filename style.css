@@ -1,12 +1,12 @@
-@media screen and (max-width:639px) {
+@media screen and (max-width:520px) {
 /*スマホ用のcssを記述*/
 }
    
-@media only screen and (min-width:640px) and (max-width:1023px) {
+@media only screen and (min-width:520px) and (max-width:960px) {
 /*tablet用のcssを記述*/
 }
   
-@media screen and (min-width:1024px) {
+@media screen and (min-width:960px) {
 /*pc用のcssを記述*/
 }
 
